@@ -10,7 +10,7 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 1. `git clone https://github.com/Maka2008/EnmuMic`
 2. `cd EnmuMic`
 3. Create a venv of your choice
-4. `Run `pip install -r requirements.txt`
+4.  Run `pip install -r requirements.txt`
 5. `python ty.py`
 6. Install Docker and Run It
 7. Install VB virtual audio cable 
