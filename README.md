@@ -53,6 +53,6 @@ The script is designed to run indefinitely until the user presses the 'b' key to
 >5. Then Voice Send it through VB Virtual Cable as Output
 
 # Credits
-@tuna2134 For Voice Vox Client 
-@VOICEVOX For Voice Vox and Docker Image
-@ahmetoner For Whisper Docker Image
+@tuna2134 For Voice Vox Client,
+@VOICEVOX For Voice Vox and Docker Image,
+@ahmetoner For Whisper Docker Image,
