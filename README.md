@@ -9,8 +9,8 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 # Setup
 1. `git clone https://github.com/Maka2008/EnmuMic`
 2. Create a venv of your choice
-3. `ty.py`
-4. `cd EnmuMic`
+3. `cd EnmuMic`
+4. `ty.py
 5. `python ty.py`
 6. Run `pip install -r requirements.txt`
 7. Install Docker and Run It
