@@ -8,7 +8,7 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 
 # Setup
 1. Create a venv of your choice.
-2. 
+2. `ty.py`
 3. `cd EnmuMic`
 4. `python ty.py`
 5. Run `pip install -r requirements.txt`
