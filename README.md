@@ -8,15 +8,14 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 
 # Setup
 1. `git clone https://github.com/Maka2008/EnmuMic`
-2. Create a venv of your choice
-3. `cd EnmuMic`
-4. `ty.py`
+2. `cd EnmuMic`
+3. Create a venv of your choice
+4. `Run `pip install -r requirements.txt`
 5. `python ty.py`
-6. Run `pip install -r requirements.txt`
-7. Install Docker and Run It
-8. Install VB virtual audio cable 
-9. Install Docker Image in Terminal
-10. Make AWS Accounts and setup AWS Cli For this Guide for it 
+6. Install Docker and Run It
+7. Install VB virtual audio cable 
+8. Install Docker Image in Terminal
+9. Make AWS Accounts and setup AWS Cli For this Guide for it 
   https://docs.aws.amazon.com/translate/latest/dg/getting-started.html
   https://youtu.be/PWAnY-w1SGQ
   
