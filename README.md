@@ -27,14 +27,6 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 1. `docker pull onerahmet/openai-whisper-asr-webservice:latest-gpu`
 2. `docker run -d --gpus all -p 9000:9000 -e ASR_MODEL=base onerahmet/openai-whisper-asr-webservice:latest-gpu`
 
-# Voice Vox Docker Image For Cpu:
-1. `docker pull voicevox/voicevox_engine:cpu-ubuntu20.04-latest`
-2. `docker run --rm -p '127.0.0.1:50021:50021' voicevox/voicevox_engine:cpu-ubuntu20.04-latest`
-
-# Voice Vox Docker Image For Gpu:
-1. `docker pull voicevox/voicevox_engine:nvidia-ubuntu20.04-latest`
-2. `docker run --rm --gpus all -p '127.0.0.1:50021:50021' voicevox/voicevox_engine:nvidia-ubuntu20.04-latest`
-
 # OverView 
 This is a Python script that continuously listens to audio input from the microphone and transcribes it using an open-source automatic speech recognition (ASR) engine called OpenAI Whisper ASR. The script then translates the transcribed text from English to Japanese using Amazon Translate and synthesizes the translated text into speech using the voice synthesis engine VoiceVox. Finally, the synthesized speech is played back using the Pygame mixer module.
 
