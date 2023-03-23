@@ -18,7 +18,8 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 9. Make AWS Accounts and setup AWS Cli For this Guide for it 
   https://docs.aws.amazon.com/translate/latest/dg/getting-started.html
   https://youtu.be/PWAnY-w1SGQ
-  
+10. Install the Vox Engine and Move to EnmuMic Folder :https://github.com/VOICEVOX/voicevox_engine/releases
+
 # Whisper Docker Image for Cpu: 
 1. `docker pull onerahmet/openai-whisper-asr-webservice:latest`
 2. `docker run -d -p 9000:9000 -e ASR_MODEL=base onerahmet/openai-whisper-asr-webservice:latest`
