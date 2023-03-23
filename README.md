@@ -8,25 +8,10 @@ The script then sends the audio file to an Automatic Speech Recognition (ASR) we
 
 # Setup
 1. `git clone https://github.com/Maka2008/EnmuMic`
-2. `cd EnmuMic`
-3. Create a venv of your choice
-4.  Run `pip install -r requirements.txt`
-5. `python ty.py`
-6. Install Docker and Run It
-7. Install VB virtual audio cable 
-8. Install Docker Image in Terminal
-9. Make AWS Accounts and setup AWS Cli For this Guide for it 
-  https://docs.aws.amazon.com/translate/latest/dg/getting-started.html
-  https://youtu.be/PWAnY-w1SGQ
-10. Install the Vox Engine and Move to EnmuMic Folder :https://github.com/VOICEVOX/voicevox_engine/releases
-
-# Whisper Docker Image for Cpu: 
-1. `docker pull onerahmet/openai-whisper-asr-webservice:latest`
-2. `docker run -d -p 9000:9000 -e ASR_MODEL=base onerahmet/openai-whisper-asr-webservice:latest`
-  
-# Whisper Docker Image For Gpu:
-1. `docker pull onerahmet/openai-whisper-asr-webservice:latest-gpu`
-2. `docker run -d --gpus all -p 9000:9000 -e ASR_MODEL=base onerahmet/openai-whisper-asr-webservice:latest-gpu`
+2. And Downlaod And Extract Voice_Vox Engine in EmmuMIc 
+3. `cd EnmuMic`
+4. Run the run.bat
+5. Make Sure u Install the API Key of Amazon AWS translate key in Your Pc
 
 # OverView 
 This is a Python script that continuously listens to audio input from the microphone and transcribes it using an open-source automatic speech recognition (ASR) engine called OpenAI Whisper ASR. The script then translates the transcribed text from English to Japanese using Amazon Translate and synthesizes the translated text into speech using the voice synthesis engine VoiceVox. Finally, the synthesized speech is played back using the Pygame mixer module.
@@ -39,7 +24,7 @@ The script is designed to run indefinitely until the user presses the 'b' key to
 
 
 # How to use 
->1. To Press/Hold C to record and Release it to Stop
+>1. To Press/Hold C to record and record the Voice for Sec 5
 >2. It will start recording your voice and save it as wav file then it will transcribe it 
 >3. Then it will translate the into Japanase through Amazon Translate API for VOX Client
 >4. Then it will use Japanese text to Create voice of Your waifu and give a playback
